@@ -6,8 +6,8 @@ public class ArrayAverage {
 		
 		int sum = 0;
 		
-		for (int number : array) {
-			sum = sum + number;
+		for (int i = 0; i < array.length; i++) {
+			sum += array[i];
 		}
 		
 		return (double) sum / array.length;
